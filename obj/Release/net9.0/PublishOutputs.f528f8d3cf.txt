@@ -3,3 +3,4 @@ C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\publish\men
 C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\publish\menupermissions.deps.json
 C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\publish\menupermissions.runtimeconfig.json
 C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\publish\menupermissions.pdb
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\publish\Newtonsoft.Json.dll

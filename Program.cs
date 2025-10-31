@@ -1,7 +1,7 @@
 ﻿using Models;
 using Utils.FileParser;
 using System.Collections.Generic;
-using System.Text.Json;
+ 
 
 namespace Menupermissions;
 
@@ -29,6 +29,18 @@ class Program
         catch (Exception ex)
         {
             Console.WriteLine($"A file parsing error occurred: {ex.Message}");
+        }
+
+        try
+        {
+            var permissionService = new PermissionService.PermissionService(users, menuItems);
+            var result = permissionService.MapUsersToPermissions();
+            
+            Console.Write(result);
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred during permission mapping: {ex.Message}");
         }
     }
 }

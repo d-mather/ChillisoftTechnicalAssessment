@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("menupermissions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3144fbd09c6d2c323936358cc0713df529adf983")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8d7d092ad5576ddd6f396ae17a02c95c5881b8c")]
 [assembly: System.Reflection.AssemblyProductAttribute("menupermissions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("menupermissions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

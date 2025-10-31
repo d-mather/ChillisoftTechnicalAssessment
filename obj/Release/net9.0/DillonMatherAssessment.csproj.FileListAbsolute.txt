@@ -13,3 +13,6 @@ C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Release
 C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Release\net9.0\DillonMatherAssessment.genruntimeconfig.cache
 C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Release\net9.0\ref\menupermissions.dll
 C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Release\net9.0\DillonMatherAssessment.sourcelink.json
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\bin\Release\net9.0\Newtonsoft.Json.dll
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Release\net9.0\DillonMatherAssessment.csproj.AssemblyReference.cache
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Release\net9.0\DillonMa.9A97DF85.Up2Date
