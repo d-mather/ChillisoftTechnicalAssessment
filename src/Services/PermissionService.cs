@@ -4,16 +4,10 @@ using Models;
 
 namespace PermissionService;
 
-public class PermissionService : IPermissionService
+public class PermissionService(List<User> users, List<MenuItem> menuItems) : IPermissionService
 {
-    private readonly List<User> _users;
-    private readonly List<MenuItem> _menuItems;
-
-    public PermissionService(List<User> users, List<MenuItem> menuItems)
-    {
-        _users = users;
-        _menuItems = menuItems;
-    }
+    private readonly List<User> _users = users;
+    private readonly List<MenuItem> _menuItems = menuItems;
 
     public string MapUsersToPermissions()
     {
