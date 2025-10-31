@@ -2,13 +2,13 @@
 using Utils.FileParser;
 using System.Collections.Generic;
  
-
 namespace Menupermissions;
 
 class Program
 {
     static async Task Main(string[] args)
     {
+        // basic argument validation
         if (args.Length != 2)
         {
             Console.WriteLine("Usage: ./publish/menupermissions <PathToUserInputFile> <PathToMenuInputFile>");
@@ -18,6 +18,7 @@ class Program
         var users = new List<User>();
         var menuItems = new List<MenuItem>();
 
+        // Asynchronously parse input files
         try
         {
             string userInputFilePath = args[0];
@@ -25,7 +26,7 @@ class Program
 
             var userTask = FileParser.UserFile(userInputFilePath);
             var menuTask = FileParser.MenuFile(menuInputFilePath);
-            
+
             await Task.WhenAll(userTask, menuTask);
             users = userTask.Result;
             menuItems = menuTask.Result;
@@ -35,11 +36,12 @@ class Program
             Console.WriteLine($"A file parsing error occurred: {ex.Message}");
         }
 
+        // Map users to their permitted menu items
         try
         {
             var permissionService = new PermissionService.PermissionService(users, menuItems);
             var result = permissionService.MapUsersToPermissions();
-            
+
             Console.Write(result);
         }
         catch (Exception ex)

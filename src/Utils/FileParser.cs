@@ -11,20 +11,25 @@ public static class FileParser
         try
         {
             var lines = await File.ReadAllLinesAsync(filePath);
+            // Parse each line/user
             foreach (var line in lines)
             {
+                // Split by space to separate username and permissions
                 var parts = line.Split(' ');
                 if (parts.Length < 2)
                     throw new Exception("Each line must contain at least two values separated by spaces.");
 
                 var username = parts[0].Trim();
+                // Concatenate the rest as permissions string
                 var permissions = "";
                 for (int i = 1; i < parts.Length; i++)
                     permissions += parts[i].Trim();
 
+                // Basic permissions string validation
                 if (!IsValidPermissions(permissions))
                     throw new Exception("Permissions strings must only contain 'Y' or 'N' characters.");
 
+                // Create User object
                 var user = new User
                 {
                     Id = Array.IndexOf(lines, line) + 1,
@@ -32,6 +37,7 @@ public static class FileParser
                     PermittedMenuIds = new List<int>()
                 };
 
+                // Map 'Y' permissions to menu IDs (1-based index)
                 for (int i = 0; i < permissions.Length; i++)
                 {
                     if (permissions[i] == 'Y')
@@ -54,12 +60,16 @@ public static class FileParser
         try
         {
             var lines = await File.ReadAllLinesAsync(filePath);
+            // Parse each line/menu item
             foreach (var line in lines)
             {
+                // Split by comma to separate ID and Name
                 var parts = line.Split(',');
+                // Basic line validation
                 if (parts.Length != 2)
                     throw new Exception("Each line must contain exactly two values separated by a comma.");
 
+                // Create MenuItem object
                 menuItems.Add(new MenuItem
                 {
                     Id = int.Parse(parts[0].Trim()),
