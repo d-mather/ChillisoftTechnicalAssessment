@@ -12,3 +12,4 @@ C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Debug\n
 C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Debug\net9.0\menupermissions.pdb
 C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Debug\net9.0\DillonMatherAssessment.genruntimeconfig.cache
 C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Debug\net9.0\ref\menupermissions.dll
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Debug\net9.0\DillonMatherAssessment.sourcelink.json

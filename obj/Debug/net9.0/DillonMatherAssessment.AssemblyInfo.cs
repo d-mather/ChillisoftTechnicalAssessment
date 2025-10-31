@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("menupermissions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79a941843950dc65a3f631723abd08931f784c24")]
 [assembly: System.Reflection.AssemblyProductAttribute("menupermissions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("menupermissions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

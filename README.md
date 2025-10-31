@@ -26,15 +26,15 @@ To write the output to an output file:
 ```
 
 ### Acknowledgements
-I was instructed to use as little AI as possible, and so I did. I was told maximum ratio of 60/40 % AI is tolerated. I only used one Copilot prompt asking advise for the best setup for easiest submission and reciept on Chillisoft side, so 0% AI code, 100% my **own code**.
+I was instructed to use as little AI as possible, and so I did. I was told maximum ratio of 60/40 % AI is tolerated. I only used **ONE** Copilot prompt - asking advice for the best setup for easiest submission and receipt on Chillisoft side, and IDE autocomplete for speed while coding, so 0% AI code, 100% my **own code**.
 
 ### Versioning
 I have voluntarily used git, from good habit, as it's a great version tracking and history tool. It is also the industry standard.
 
 ## Final Comments
-I just wanted to say thank you Chillisoft for this assessment and for considering me. I apologise I had to rush it to a degree, the week I had to do it in was filled with exams, other interviews, applications and assessments. 
+I just wanted to say thank you Chillisoft for this assessment and for considering me. I apologize I had to rush it to a degree, the week I had to do it in was filled with exams, other interviews, applications and assessments. 
 
-### Futer Considerations
+### Future Considerations
 More time on this could result in:
 - More error handling - for an improved user experience.
 - Extended tests - better safeguard in more scenarios.
