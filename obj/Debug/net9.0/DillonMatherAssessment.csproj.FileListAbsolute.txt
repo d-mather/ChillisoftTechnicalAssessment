@@ -1,0 +1,14 @@
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\bin\Debug\net9.0\menupermissions.exe
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\bin\Debug\net9.0\menupermissions.deps.json
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\bin\Debug\net9.0\menupermissions.runtimeconfig.json
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\bin\Debug\net9.0\menupermissions.dll
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\bin\Debug\net9.0\menupermissions.pdb
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Debug\net9.0\DillonMatherAssessment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Debug\net9.0\DillonMatherAssessment.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Debug\net9.0\DillonMatherAssessment.AssemblyInfo.cs
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Debug\net9.0\DillonMatherAssessment.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Debug\net9.0\menupermissions.dll
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Debug\net9.0\refint\menupermissions.dll
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Debug\net9.0\menupermissions.pdb
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Debug\net9.0\DillonMatherAssessment.genruntimeconfig.cache
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\obj\Debug\net9.0\ref\menupermissions.dll

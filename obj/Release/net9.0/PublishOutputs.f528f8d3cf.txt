@@ -1,0 +1,5 @@
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\publish\menupermissions.exe
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\publish\menupermissions.dll
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\publish\menupermissions.deps.json
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\publish\menupermissions.runtimeconfig.json
+C:\Users\User\Downloads\Assessment Chillisoft\DillonMatherAssessment\publish\menupermissions.pdb
