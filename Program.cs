@@ -15,12 +15,15 @@ class Program
             return;
         }
 
+        var users = new List<User>();
         var menuItems = new List<MenuItem>();
 
         try
         {
+            string userInputFilePath = args[0];
             string menuInputFilePath = args[1];
 
+            users = FileParser.UserFile(userInputFilePath);
             menuItems = FileParser.MenuFile(menuInputFilePath);
         }
         catch (Exception ex)
