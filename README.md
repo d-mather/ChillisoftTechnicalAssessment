@@ -9,6 +9,21 @@ The instructions for this assessment can be found in `instructions/Instructions.
 1. Windows
 2. dotnet (can install from [here](http://dotnet.microsoft.com/download) - 9.0 recommended)
 
+### Run
+The executable is found in the `publish` directory. To run it from the root directory of the repository:
+```
+./publish/menupermissions <PathToUserInputFile> <PathToMenuInputFile>
+```
+
+Example:
+```
+./publish/menupermissions users.txt menus.txt
+```
+
+To write the output to an output file:
+```
+./publish/menupermissions users.txt menus.txt > output.txt
+```
 
 ### Acknowledgements
 I was instructed to use as little AI as possible, and so I did. I was told maximum ratio of 60/40 % AI is tolerated. I only used one Copilot prompt asking advise for the best setup for easiest submission and reciept on Chillisoft side, so 0% AI code, 100% my **own code**.
