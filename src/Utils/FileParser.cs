@@ -1,15 +1,16 @@
 using Models;
+using System.Threading.Tasks;
 
 namespace Utils.FileParser;
 
 public static class FileParser
 {
-    public static List<User> UserFile(string filePath)
+    public static async Task<List<User>> UserFile(string filePath)
     {
         var users = new List<User>();
         try
         {
-            var lines = File.ReadAllLines(filePath);
+            var lines = await File.ReadAllLinesAsync(filePath);
             foreach (var line in lines)
             {
                 var parts = line.Split(' ');
@@ -47,12 +48,12 @@ public static class FileParser
         return users;
     }
 
-    public static List<MenuItem> MenuFile(string filePath)
+    public static async Task<List<MenuItem>> MenuFile(string filePath)
     {
         var menuItems = new List<MenuItem>();
         try
         {
-            var lines = File.ReadAllLines(filePath);
+            var lines = await File.ReadAllLinesAsync(filePath);
             foreach (var line in lines)
             {
                 var parts = line.Split(',');

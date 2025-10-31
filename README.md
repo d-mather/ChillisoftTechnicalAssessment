@@ -22,7 +22,7 @@ Example:
 
 To write the output to an output file:
 ```
-./publish/menupermissions users.txt menus.txt > output.txt
+./publish/menupermissions users.txt menus.txt > output.json
 ```
 
 ### Acknowledgements
@@ -39,4 +39,3 @@ More time on this could result in:
 - More error handling - for an improved user experience.
 - Extended tests - better safeguard in more scenarios.
 - Logging - verbosity and debugging purposes.
-- Performance - asynchronous file parsing.

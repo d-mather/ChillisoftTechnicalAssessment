@@ -7,7 +7,7 @@ namespace Menupermissions;
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
         if (args.Length != 2)
         {
@@ -23,8 +23,12 @@ class Program
             string userInputFilePath = args[0];
             string menuInputFilePath = args[1];
 
-            users = FileParser.UserFile(userInputFilePath);
-            menuItems = FileParser.MenuFile(menuInputFilePath);
+            var userTask = FileParser.UserFile(userInputFilePath);
+            var menuTask = FileParser.MenuFile(menuInputFilePath);
+            
+            await Task.WhenAll(userTask, menuTask);
+            users = userTask.Result;
+            menuItems = menuTask.Result;
         }
         catch (Exception ex)
         {
